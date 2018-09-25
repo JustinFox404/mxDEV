@@ -1,23 +1,38 @@
-<?php include 'protected/header.php';
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>mxDEV</title>
+    <script src="js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="stripe"></div>
+<p class="title">We are</p>
 
-$page = isset($_GET['page']) ? $_GET['page'] : 'home';
+<div class="img">
+    <img src="img/logo.png" alt="logo">
+</div>
 
-switch ($page) {
-    case 'home':
-        include 'sites/home.php';
-        break;
-//        --------------------------
-//        Make a new page like this
-    case 'EXTRA PAGE':
-        include 'sites/EXTRA_PAGE.php';
-        break;
-//        --------------------------
-
-    default:
-        include 'sites/notfound.php';
-        break;
-}
-$_GET['p'] = $page;
-include 'protected/change.php';
-
-include 'protected/footer.php'; ?>
+<div class="buttons">
+    <a class="button"><span>Info</span></a>
+    <a class="button"><span>About</span></a>
+    <a class="button"><span>Contact</span></a>
+</div>
+<div class="board">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+</body>
+</html>
