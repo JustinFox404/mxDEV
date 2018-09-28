@@ -15,13 +15,11 @@ header{
 header > .main > img{
   padding-top: 10px;
   height: 80px;
-  /*transform: translate(0,100%);*/
 }
 .main{
   padding: 5px;
   margin: 0 auto;
   width: 900px;
-  /*background: rgba(0,0,0,0.1);*/
 }
 .main:nth-child(2){
   margin-top: 120px;
@@ -30,7 +28,6 @@ header > .main > img{
 .main > #nav {
   transform: translate(0,50%);
   float: right;
-  /*background: rgba(40,210,255,0.3);*/
   display: inline-block;
   width: max-content;
   height: max-content;
@@ -46,10 +43,61 @@ header > .main > img{
   /*background: white;*/
   border-left: 2px $darkred solid;
   border-right: 2px $darkred solid;
+  transition: 0.2s ease-in-out;
+}
+.main > #nav > a:hover{
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.2);
+
 }
 .main > #nav > a:first-child{
   border-left: none;
 }
 .main > #nav > a:last-child {
   border-right: none;
+}
+
+#hamburger{
+  display: none;
+}
+.main > label {
+  display: none;
+  font-size: 50px;
+}
+
+@media all and (max-width: 850px) {
+  .main{
+    width: 100%;
+  }
+  .main > label{
+    display: inline-block;
+    float: right;
+    transform: translate(-10px,40%);
+
+  }
+
+  #nav{
+    display: none;
+  }
+  #nav > a{
+    display: none;
+  }
+
+  #hamburger:checked + label + #nav{
+    display: block;
+    width: 100%;
+    background: white;
+    transform: translate(0,0);
+    border-bottom: $darkred solid 4px;
+  }
+
+  #hamburger:checked + label + #nav > a{
+    display: block;
+    width: 100%;
+    background: white;
+    margin: 4px;
+    padding: 0 3px x;
+    border: none;
+    border-top: $darkred dotted;
+    box-shadow: -4px  0px 0px $darkred;
+  }
 }
