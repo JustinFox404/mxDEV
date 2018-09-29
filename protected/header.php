@@ -10,10 +10,13 @@
 </head>
 <body>
 <header>
-    <div class="main"><img src="../img/logo_standalone.svg">
+    <div class="main">
+        <a href="../index.php">
+        <img src="../img/logo_standalone.svg">
+        </a>
         <input id="hamburger" type="checkbox"><label for="hamburger"><i id="hamopen" class="fas fa-bars"></i></label>
         <div id="nav">
-            <a href="#">Info</a><a href="#">About</a><a href="#">Contact</a>
+            <a href="index.php?page=get_started">Get started</a><a href="index.php?page=about">About</a><a href="index.php?page=contact">Contact</a>
         </div>
     </div>
 </header>

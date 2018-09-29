@@ -17,9 +17,9 @@
 </div>
 
 <div class="buttons">
-    <a class="button"><span>Info</span></a>
-    <a class="button"><span>About</span></a>
-    <a class="button"><span>Contact</span></a>
+    <a class="button" href="page/index.php?page=get_started"><span>Get started</span></a>
+    <a class="button" href="page/index.php?page=about"><span>About</span></a>
+    <a class="button" href="page/index.php?page=contact"><span>Contact</span></a>
 </div>
 <div class="board">
     <div class="item"></div>

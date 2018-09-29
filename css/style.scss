@@ -13,6 +13,10 @@ body {
   display: grid;
 }
 
+a{
+  text-decoration: none;
+}
+
 .title {
   text-align: center;
   font-size: 50px;
@@ -121,4 +125,26 @@ body {
   background-color: #d10000;
   transform: rotate3d(0, 0, 1, 0deg);
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+//Tim's kleine dingetje voor 'about'
+#team{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  //background: lightcoral;
+}
+#team > div{
+  //background: red;
+  margin: 5px;
+}
+
+#team > div > img{
+  float: left;
+  border-right: dashed $darkred 2px;
+  //display: block;
+  width: 120px;
+}
+#team > div > div{
+  width: 100% ;
+  border-bottom: dotted 2px $darkred;
 }
