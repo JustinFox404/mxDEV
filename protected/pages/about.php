@@ -15,11 +15,8 @@ Hierdoor is het bedrijf gespecialiseerd in het ontwikkelen van high-end websites
         <br>
         <b>Gender:</b> Male
         <br>
-        <b>more info:</b> yes
-        <br>
-        <b>more info:</b> please
-        <br>
-        <b>more info:</b> do
+        <a href="https://justinfox.foxiko.com/" target="_blank"><b>Website</b></a>
+
     </div>
 
     <div>
@@ -31,11 +28,7 @@ Hierdoor is het bedrijf gespecialiseerd in het ontwikkelen van high-end websites
         <br>
         <b>Gender:</b> Male
         <br>
-        <b>more info:</b> I
-        <br>
-        <b>more info:</b> MADE
-        <br>
-        <b>more info:</b> THIS
+        <a href="http://timhuijkman.nl/" target="_blank"><b>Website</b></a>
     </div>
 
     <div>
@@ -47,11 +40,7 @@ Hierdoor is het bedrijf gespecialiseerd in het ontwikkelen van high-end websites
         <br>
         <b>Gender:</b> Unknown
         <br>
-        <b>more info:</b> yes
-        <br>
-        <b>more info:</b> please
-        <br>
-        <b>more info:</b> do
+        <a href="#" target="_blank"><b>Website</b></a>
     </div>
 
     <div>
@@ -63,11 +52,7 @@ Hierdoor is het bedrijf gespecialiseerd in het ontwikkelen van high-end websites
         <br>
         <b>Gender:</b> Male
         <br>
-        <b>more info:</b> enter
-        <br>
-        <b>more info:</b> info
-        <br>
-        <b>more info:</b> please
+        <a href="#" target="_blank"><b>Website</b></a>
     </div>
 
     <div>
@@ -79,11 +64,7 @@ Hierdoor is het bedrijf gespecialiseerd in het ontwikkelen van high-end websites
         <br>
         <b>Gender:</b> Male
         <br>
-        <b>more info:</b> please
-        <br>
-        <b>more info:</b> add
-        <br>
-        <b>more info:</b> info
+        <a href="#" target="_blank"><b>Website</b></a>
 
     </div>
 

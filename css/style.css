@@ -224,6 +224,19 @@ a {
 #team > div {
   margin: 5px; }
 
+#team > div > a {
+  transition: 0.2s; }
+
+#team > div > a:link {
+  color: #cc0000; }
+
+#team > div > a:visited {
+  color: #650005; }
+
+#team > div > a:hover {
+  color: #ff5915;
+  text-decoration: underline dotted; }
+
 #team > div > img {
   float: left;
   border-right: dashed #d10000 2px;
