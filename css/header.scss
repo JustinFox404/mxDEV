@@ -108,3 +108,12 @@ header > .main > a > img {
     box-shadow: -4px  0px 0px $darkred;
   }
 }
+@media screen and (max-width: 360px) {
+  header>.main>a>img{
+    width: 80%;
+  }
+  #hamopen{
+    font-size: 40px;
+    transform: translate(-10px,-5px);
+  }
+}

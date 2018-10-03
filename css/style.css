@@ -95,6 +95,13 @@ header > .main > a > img {
     border: none;
     border-top: #d10000 dotted;
     box-shadow: -4px 0px 0px #d10000; } }
+@media screen and (max-width: 360px) {
+  header > .main > a > img {
+    width: 80%; }
+
+  #hamopen {
+    font-size: 40px;
+    transform: translate(-10px, -5px); } }
 body {
   font-family: Consolas, sans-serif; }
 
