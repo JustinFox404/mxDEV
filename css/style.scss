@@ -134,17 +134,32 @@ a{
   //background: lightcoral;
 }
 #team > div{
-  //background: red;
   margin: 5px;
 }
 
 #team > div > img{
   float: left;
   border-right: dashed $darkred 2px;
-  //display: block;
   width: 120px;
 }
 #team > div > div{
   width: 100% ;
   border-bottom: dotted 2px $darkred;
 }
+
+@media screen and (max-width: 850px){
+  #team{
+    font-size: 18px;
+    grid-template-columns: 1fr 1fr;
+  }
+  #team > div > img{
+    width: 140px;
+  }
+}
+@media screen and (max-width: 660px){
+  #team{
+    font-size: 19px;
+    grid-template-columns: 1fr;
+  }
+}
+

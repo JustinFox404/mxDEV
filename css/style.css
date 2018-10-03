@@ -60,10 +60,16 @@ header > .main > a > img {
   display: none;
   font-size: 50px; }
 
-@media all and (max-width: 850px) {
-  .main {
-    width: 100%; }
+@media screen and (max-width: 900px) {
+  #nav > a {
+    font-size: 30px !important; }
 
+  #nav {
+    transform: translate(0, 90%) !important; }
+
+  .main {
+    width: 100%; } }
+@media screen and (max-width: 850px) {
   .main > label {
     display: inline-block;
     float: right;
@@ -221,5 +227,17 @@ a {
 #team > div > div {
   width: 100%;
   border-bottom: dotted 2px #d10000; }
+
+@media screen and (max-width: 850px) {
+  #team {
+    font-size: 18px;
+    grid-template-columns: 1fr 1fr; }
+
+  #team > div > img {
+    width: 140px; } }
+@media screen and (max-width: 660px) {
+  #team {
+    font-size: 19px;
+    grid-template-columns: 1fr; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -13,7 +13,7 @@
 <p class="title">We are</p>
 
 <div class="img">
-    <img src="img/logo.png" alt="logo">
+    <img src="img/logo_standalone.svg" alt="logo">
 </div>
 
 <div class="buttons">

@@ -65,12 +65,19 @@ header > .main > a > img {
   display: none;
   font-size: 50px;
 }
-
-@media all and (max-width: 850px) {
+@media screen and (max-width: 900px) {
+  #nav>a{
+    font-size: 30px !important;
+  }
+  #nav{
+    transform: translate(0,90%)!important;
+  }
   .main{
     width: 100%;
   }
-  .main > label{
+}
+@media screen and (max-width: 850px) {
+    .main > label{
     display: inline-block;
     float: right;
     transform: translate(-10px,40%);
