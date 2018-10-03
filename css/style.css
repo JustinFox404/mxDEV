@@ -64,16 +64,13 @@ header > .main > a > img {
   #nav > a {
     font-size: 30px !important; }
 
-  #nav {
-    transform: translate(0, 90%) !important; }
-
   .main {
     width: 100%; } }
 @media screen and (max-width: 850px) {
   .main > label {
     display: inline-block;
     float: right;
-    transform: translate(-10px, 40%); }
+    transform: translate(-10px, 40%) !important; }
 
   #nav {
     display: none; }
@@ -82,6 +79,7 @@ header > .main > a > img {
     display: none; }
 
   #hamburger:checked + label + #nav {
+    overflow: none;
     display: block;
     width: 100%;
     background: white;
@@ -91,7 +89,7 @@ header > .main > a > img {
   #hamburger:checked + label + #nav > a {
     display: block;
     width: 100%;
-    background: white;
+    background: rgba(0, 0, 0, 0.1);
     margin: 4px;
     padding: 0 3px x;
     border: none;
