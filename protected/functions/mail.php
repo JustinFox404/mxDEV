@@ -15,7 +15,7 @@ $message .= "Onderwerp: " . $subject . "\n";
 $message .= "Tekst: \n" . $text . "\n\n";
 $message .= "Met vriendelijke groet, \n\n";
 $message .= $name;
-mail ($to, $subject, $message, $headers) or die ('Error mailing');
+mail($to, $subject, $message, $headers) or die ('Error mailing');
 
 header('Location: index.php?page=gelukt_mail');
 exit();
