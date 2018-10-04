@@ -15,9 +15,10 @@ Heeft u liever contact via de telefoon? Gebruik dan de onderstaande telefoonnumm
 
             <label for="onderwerp">Onderwerp</label><br>
             <select name="onderwerp" id="onderwerp">
-                <option value="offerte">Offerte</option>
-                <option value="advies">Op maat gemaakt advies</option>
-                <option value="overig">Support aanvraag</option>
+                <option value="Offerte">Offerte</option>
+                <option value="Op maat gemaakt advies">Op maat gemaakt advies</option>
+                <option value="Support aanvraag">Support aanvraag</option>
+                <option value="Overig">Overig</option>
             </select><br><br>
 
             <label for="tekst">Tekst</label><br>
