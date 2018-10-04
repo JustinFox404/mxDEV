@@ -22,7 +22,7 @@ Heeft u liever contact via de telefoon? Gebruik dan de onderstaande telefoonnumm
             </select><br><br>
 
             <label for="tekst">Tekst</label><br>
-            <textarea  name="tekst" id="tekst"></textarea><br><br>
+            <textarea  name="tekst" id="tekst" rows="4" cols="100"></textarea><br><br>
 
             <input type="submit" value="Versturen">
     </div>
