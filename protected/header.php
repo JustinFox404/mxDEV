@@ -8,11 +8,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<script>
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        document.getElementById('logo').src="../img/logo.png";
+    }
+</script>
 <body>
 <header>
     <div class="main">
         <a href="../index.php">
-        <img src="../img/logo_standalone.svg">
+        <img id='logo' src="../img/logo_standalone.svg">
         </a>
         <input id="hamburger" type="checkbox"><label for="hamburger"><i id="hamopen" class="fas fa-bars"></i></label>
         <div id="nav">

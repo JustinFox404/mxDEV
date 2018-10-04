@@ -14,7 +14,7 @@
 <p class="title">We are</p>
 
 <div class="img">
-    <img src="img/logo_standalone.svg" alt="logo">
+    <img id="logo" src="img/logo_standalone.svg" alt="logo">
 </div>
 
 <div class="buttons">
@@ -36,4 +36,9 @@
     <div class="item"></div>
 </div>
 </body>
+<script>
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        document.getElementById('logo').src="img/logo.png";
+    }
+</script>
 </html>
