@@ -8,7 +8,7 @@ Hierdoor is het bedrijf gespecialiseerd in het ontwikkelen van high-end websites
 
     <div>
         <div>Emile: Projectleider.</div>
-        <img src="http://wattleparkkgn.sa.edu.au/wp-content/uploads/2017/06/placeholder-profile-sq.jpg">
+        <img src="../img/emile.png">
         <b>Age:</b>16
         <br>
         <b>Single:</b> yes
@@ -21,10 +21,10 @@ Hierdoor is het bedrijf gespecialiseerd in het ontwikkelen van high-end websites
 
     <div>
         <div>Tim : Fullstack developer.</div>
-        <img src="http://wattleparkkgn.sa.edu.au/wp-content/uploads/2017/06/placeholder-profile-sq.jpg">
+        <img src="../img/tim.png">
         <b>Age:</b>18
         <br>
-        <b>Single:</b> no
+        <b>Single:</b> yes
         <br>
         <b>Gender:</b> Male
         <br>
@@ -33,7 +33,7 @@ Hierdoor is het bedrijf gespecialiseerd in het ontwikkelen van high-end websites
 
     <div>
         <div>Joël : Fullstack developer.</div>
-        <img src="http://wattleparkkgn.sa.edu.au/wp-content/uploads/2017/06/placeholder-profile-sq.jpg">
+        <img src="../img/joel.png">
         <b>Age:</b>18
         <br>
         <b>Single:</b> yes
@@ -57,7 +57,7 @@ Hierdoor is het bedrijf gespecialiseerd in het ontwikkelen van high-end websites
 
     <div>
         <div>Jolan : front-end developer.</div>
-        <img src="http://wattleparkkgn.sa.edu.au/wp-content/uploads/2017/06/placeholder-profile-sq.jpg">
+        <img src="../img/jolan.png">
         <b>Age:</b>17
         <br>
         <b>Single:</b> yes
