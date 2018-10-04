@@ -4,7 +4,7 @@ Vul dan het onderstaande formulier in met de juiste onderwerp en uw e-mailadres.
 Ons team probeert uw mail zo snel mogelijk te reageren.
 Heeft u liever contact via de telefoon? Gebruik dan de onderstaande telefoonnummer (tijd t/m tijd bereikbaar).
 
-<form action="#" method="post">
+<form action="protected/functions/mail.php" method="post">
     <div id="border">
             <br>
             <label for="naam">Volledige Naam</label><br>
