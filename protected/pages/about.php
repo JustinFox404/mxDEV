@@ -38,7 +38,7 @@ Hierdoor is het bedrijf gespecialiseerd in het ontwikkelen van high-end websites
         <br>
         <b>Single:</b> yes
         <br>
-        <b>Gender:</b> Unknown
+        <b>Gender:</b> Male
         <br>
         <a href="#" target="_blank"><b>Website</b></a>
     </div>
