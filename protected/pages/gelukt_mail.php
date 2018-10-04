@@ -1,0 +1,1 @@
+<h1>Uw mail is verstuurd.</h1>
